@@ -446,14 +446,15 @@
 </head>
 
 <body onload="showLandingPage()" ; style="background-color: black; color: white;">
-    <div id="landing" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnpHQbF-VNZ81KhWmR-4JTgmZycHd_WVTjJA&s); filter: brightness(40%);">
+    <div id="landing" style="background-image: url('https://img.freepik.com/free-vector/gradient-world-emoji-day-background-with-emoticons_23-2149425515.jpg?semt=ais_hybrid'); height: 100dvh; background-size: cover; background-position: center; background-repeat: no-repeat;">
         <div>
             <h1 style="color: black;">Welcome to Mood Matcher</h1>
+            <p style="color:black">Mood Matcher offers a unique and interactive way to explore your feelings.<br>Whether you’re feeling happy, sad, excited, or anything in between,<br> we’re here to help you navigate your emotions and find balance.</p>
         </div>
         <button type="button" onclick="showRegisterPage()">Register</button>
         <button type="button" onclick="showLoginPage()">Login</button>
     </div>
-    <div id="register-page">
+    <div id="register-page" style="background-image: url('https://img.freepik.com/free-vector/gradient-connection-background_52683-116380.jpg?semt=ais_hybrid'); height: 100dvh; background-size: cover; background-position: center; background-repeat: no-repeat;">
         <div class="form-container">
             <h2>Register</h2>
             <input type="text" class="input-field" placeholder="Username" id="username"><br><br>
@@ -474,7 +475,7 @@
             <button type="button" onclick="showLandingPage()">Back</button>
         </div>
     </div>
-    <div id="login-page">
+    <div id="login-page" style="background-image: url('https://wallpapers.com/images/hd/emotions-background-tolibu330h6pg9it.jpg');height: 100dvh; background-size: cover; background-position: center; background-repeat: no-repeat;">
         <div class="form-container">
             <h1>Login Page</h1>
             <label for="username">Username:</label>
@@ -486,7 +487,7 @@
 
         </div>
     </div>
-    <div id="emotions" style="font-size: medium;font-family: serif;">
+    <div id="emotions" style="font-size: medium;font-family: serif; background-image: url('https://wallpapers.com/images/hd/happy-emoji-plush-toys-gzlz1ihvkhc3oip4.jpg');">
         <h1 style="font-size: xx-large;font-family: 'Times New Roman', Times, serif;color: azure;">Select an Emotion
         </h1>
         <a class="emotion-btn" href="#" onclick="showDetails('happy')">Happy <span
@@ -511,7 +512,7 @@
 
 
     </div>
-    <div id="details" style="display:none;">
+    <div id="details" style="display:none;background-image: url('https://t3.ftcdn.net/jpg/07/11/22/34/360_F_711223437_7CnHZ75ep77wZfMbXh7AhoiLSzC2y9Kc.jpg');height: 100dvh; background-size: cover; background-position: center; background-repeat: no-repeat;">
         <h2 id="emotion-title"></h2>
         <a href="#" onclick="showContent('dos')">Do's <span
                 style="font-size: large; font-family: serif;">&#9989;</span></a><br>
@@ -523,7 +524,7 @@
                 style="font-size: large; font-family: serif;">&#127752;</span></a><br>
         <button class="back-button" onclick="showEmotions()">Back</button><br>
     </div>
-    <div id="content" style="display:none;">
+    <div id="content" style="display:none; background-image: url('https://i.pinimg.com/474x/54/55/49/545549eb049c03247b9966193348a1f0.jpg');height: 100dvh; background-size: cover; background-position: center; background-repeat: no-repeat;">
         <h3 id="content-title"></h3>
         <p id="content-details"></p>
         <button class="back-button" onclick="showDetailsAgain()">Back</button>
